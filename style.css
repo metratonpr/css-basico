@@ -34,3 +34,12 @@ p{
     text-align: center;
     padding: 40px 20px;
 }
+
+/* Css uso por classe */
+
+.secao{
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
