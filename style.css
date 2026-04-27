@@ -43,3 +43,24 @@ p{
     margin-bottom: 25px;
     border-radius: 10px;
 }
+
+.cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.card{
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    padding: 20px;
+    border-radius: 10px;
+    width:30%;
+    min-width: 200px;
+}
+.card strong{
+    display: block;
+    margin-top: 10px;
+    font-size: 28px;
+    color: #1d4ed8;
+}
