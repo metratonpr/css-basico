@@ -61,8 +61,54 @@
                         <th>Status</th>
                     </tr>
                 </thead>
+                <tbody>
+                    <tr>
+                        <td>Maria</td>
+                        <td>maria@maria.com.br</td>
+                        <td>Ativo</td>
+                    </tr>
+                    <tr>
+                        <td>Joao Silva</td>
+                        <td>joao@maria.com.br</td>
+                        <td>Ativo</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
+
+        <section class="secao">
+            <h2>Formulario de Cadastro</h2>
+            <form id="form-cadastro">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" 
+                    placeholder="Digite seu nome">
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" 
+                    placeholder="Digite seu e-mail">
+                </div>
+                <div class="campo">
+                    <label for="status">Status</label>
+                    <select name="status" id="status">
+                        <option value="" disabled>Selecione</option>
+                        <option value="ativo">Ativo</option>
+                        <option value="inativo">Inativo</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem"
+                    rows="4" placeholder="Digite sua Mensagem">
+                    </textarea>
+                </div>
+                <div>
+                    <button type="submit" class="botao">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+        <!-- Fim do codigo -->
     </main>
 </body>
 
